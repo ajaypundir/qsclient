@@ -22,7 +22,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 ### `npm install`
 to download all the depenedencies for the project
-then run
 ### `yarn start`
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Assumptions/Dependency
+This client is dependant on the graphQL server. I have used local IP 
+http://10.220.4.139:19090/api/. 
+
+```
+GraphQL Server Link mentioned at `src\index.js`
+const httpLink = new HttpLink({ uri: 'http://localhost:19090/api/' })
+```
+We have to host GraphQL server by running github repo:
+https://github.com/bisht-jitendra/graphql-poc
