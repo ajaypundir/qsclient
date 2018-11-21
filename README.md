@@ -27,7 +27,7 @@ Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Assumptions/Dependency
-This client is dependant on the graphQL server. I have used local IP 
+This client is dependant on the graphQL server. 
 http://localhost:19090/api/. 
 
 ```
