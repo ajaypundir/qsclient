@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Assumptions/Dependency
 This client is dependant on the graphQL server. I have used local IP 
-http://10.220.4.139:19090/api/. 
+http://localhost:19090/api/. 
 
 ```
 GraphQL Server Link mentioned at `src\index.js`
