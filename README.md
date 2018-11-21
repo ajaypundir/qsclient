@@ -1,9 +1,9 @@
 ## qsclient
-It is a demo appolo client for GraphQL. We have used below mentioned steps to build this project:
+It is a demo apollo client for GraphQL. We have used below mentioned steps to create skeleton for this project:
 1. `npx create-react-app qsclient`
   to setup the React app
 2. `yarn start`
-  start the app local server with yarn:
+  start the app local server with yarn
 3. `yarn add apollo-boost react-apollo graphql`
    Apollo Boost dependency for graphQL client
 
