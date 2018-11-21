@@ -32,7 +32,7 @@ http://10.220.4.139:19090/api/.
 
 ```
 GraphQL Server Link mentioned at `src\index.js`
-const httpLink = new HttpLink({ uri: 'http://10.220.4.139:19090/api/' })
+const httpLink = new HttpLink({ uri: 'http://localhost:19090/api/' })
 ```
 We have to host GraphQL server by running github repo:
 https://github.com/bisht-jitendra/graphql-poc
